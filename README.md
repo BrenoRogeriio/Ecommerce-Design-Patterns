@@ -44,7 +44,7 @@ Com essa arquitetura, o código ficou totalmente desacoplado, fácil de testar e
 ## 🚀 Collection postman
 
 
-[📥Collection do Postman](/docs/E-Commerce-Design-Patterns.postman_collection.json.json)
+[📥Collection do Postman](/docs/E-Commerce-Design-Patterns.postman_collection.json)
 
 
 
