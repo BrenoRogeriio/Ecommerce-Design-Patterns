@@ -41,6 +41,19 @@ Com essa arquitetura, o código ficou totalmente desacoplado, fácil de testar e
 * `PUT /api/pedidos/{id}/cancelar` - Cancela o pedido (O sistema vai barrar se o status já for `ENVIADO`).
 
 ---
+## 🚀 Collection postman
+
+
+[📥Collection do Postman](./docs/E-Commerce Design Patterns.postman_collection.json)
+
+
+
+## 📊 Diagrama de Classes
+
+Abaixo está o diagrama de classes ilustrando a estrutura dos Design Patterns aplicados no projeto:
+
+![Diagrama de Classes](docs/diagrama-classes.png)
+
 
 ## 🧠 Retornos de Erro Limpos
 Para não poluir o Postman com aquele textão de erro do Java (Stacktrace), criamos um tratador global (`RestExceptionHandler`). Quando o *State Pattern* bloqueia uma ação, o usuário recebe um JSON direto e limpo:
