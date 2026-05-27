@@ -55,11 +55,4 @@ Abaixo está o diagrama de classes ilustrando a estrutura dos Design Patterns ap
 ![Diagrama de Classes](docs/diagrama-classes.png)
 
 
-## 🧠 Retornos de Erro Limpos
-Para não poluir o Postman com aquele textão de erro do Java (Stacktrace), criamos um tratador global (`RestExceptionHandler`). Quando o *State Pattern* bloqueia uma ação, o usuário recebe um JSON direto e limpo:
 
-```json
-{
-  "erro": "Erro: O pedido precisa ser pago antes de ser enviado.",
-  "status": 400
-}
